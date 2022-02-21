@@ -1,10 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import { FaBars } from "react-icons/fa";
 function Navbar() {
   return (
-    <div>Navbar</div>
-    FaBars
-  )
+    <div>
+      Navbar
+      <FaBars />
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;
