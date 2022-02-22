@@ -77,6 +77,10 @@ export default function NavBar() {
               <AiFillGitlab />
             </div>
           </div>
+          <div className="auth-buttons">
+            <button>Sign in</button>
+            <button>Register</button>
+          </div>
         </div>
         {/*
                           A <Switch> looks through all its children <Route>
