@@ -32,7 +32,10 @@ export default function NavBar() {
       <div>
         <div className="navbar-wrapper">
           <div className="logo">
-            <Link to="/"> PaGer</Link>
+            <Link to="/">
+              {" "}
+              <span>P</span>aGer
+            </Link>
           </div>
 
           <div className="toggle" onClick={() => triggerFunc()}>

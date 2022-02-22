@@ -81,19 +81,20 @@ ul li a {
 
 .auth-buttons {
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .auth-buttons button {
-    padding: 10px 35px;
+    padding: 10px 30px;
     font-size: 1.2rem;
     border-radius: 7px;
     font-weight: 700;
     border: none;
     background-color: rgb(33, 156, 9);
+    margin: 5px;
 }
 
 .auth-buttons button:hover {
@@ -111,6 +112,11 @@ ul li a {
     text-decoration: none;
 }
 
+.logo a span {
+    color: rgb(33, 156, 9);
+    font-size: 3rem;
+}
+
 .icon {
     color: #eee;
     background-color: rgb(7, 20, 20);
@@ -119,4 +125,10 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .active {
+        width: 100%;
+    }
 }
