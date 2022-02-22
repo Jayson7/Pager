@@ -1,5 +1,12 @@
 import { React, useState } from "react";
-import { AiOutlineBars } from "react-icons/ai";
+import {
+  AiOutlineBars,
+  AiFillFacebook,
+  AiFillTwitterCircle,
+  AiFillInstagram,
+  AiFillGithub,
+  AiFillGitlab,
+} from "react-icons/ai";
 import Contact from "../Contact/contact";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomePage from "../HomePage/home";
@@ -53,6 +60,23 @@ export default function NavBar() {
               <Link to="/contact"> Contact</Link>
             </li>
           </ul>
+          <div className="icons">
+            <div className="icon">
+              <AiFillFacebook />
+            </div>
+            <div className="icon">
+              <AiFillTwitterCircle />
+            </div>
+            <div className="icon">
+              <AiFillInstagram />
+            </div>
+            <div className="icon">
+              <AiFillGithub />
+            </div>
+            <div className="icon">
+              <AiFillGitlab />
+            </div>
+          </div>
         </div>
         {/*
                           A <Switch> looks through all its children <Route>

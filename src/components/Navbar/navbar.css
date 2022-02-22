@@ -17,10 +17,49 @@
 
 .active {
     width: 300px;
-    height: calc(100vh-60px);
-    background-color: black;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 60px;
+    background-color: rgb(28, 28, 51);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    transition: all ease 1s;
+}
+
+.notactive {
+    width: 300px;
+    transform: translateX(-300px);
+    height: calc(100vh - 60px);
+    position: fixed;
+    transition: all ease 1s;
+    top: 60px;
+    background-color: rgb(28, 28, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon {
+    color: #eee;
 }
