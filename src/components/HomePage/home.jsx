@@ -1,9 +1,9 @@
 import React from "react";
-
+import Section1 from "./pages/section1/section1";
 function HomePage() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Section1 />
     </div>
   );
 }
