@@ -1,0 +1,51 @@
+.section1 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(1, 30, 46)), url("../section1/g.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    height: 60%;
+    /* background-color: aqua; */
+}
+
+.section1-text-box h1 {
+    font-size: 4.5rem;
+    color: rgb(253, 208, 6);
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+}
+
+.section1-text-box p {
+    color: #eee;
+}
+
+.section1-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-button button {
+    margin: 0px 30px;
+    padding: 13px 50px;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    border: none;
+    font-weight: 900;
+    font-family: "Ubuntu", monospace;
+    background-color: rgb(37, 105, 28);
+}
