@@ -1,6 +1,11 @@
 import React from "react";
 import "./section2.css";
-import { AiOutlineCheckSquare } from "react-icons/ai";
+import {
+  AiOutlineCheckSquare,
+  AiFillAppstore,
+  AiFillContacts,
+  AiFillBell,
+} from "react-icons/ai";
 
 import img from "./3.jpg";
 function Section2() {
@@ -17,11 +22,27 @@ function Section2() {
               <div className="check">
                 <AiOutlineCheckSquare />
               </div>
+
               <p> Tested and Trusted </p>
             </div>
-            <div className="division"></div>
-            <div className="division"></div>
-            <div className="division"></div>
+            <div className="division">
+              <div className="check">
+                <AiFillAppstore />
+              </div>
+              <p>Available worldwide</p>
+            </div>
+            <div className="division">
+              <div className="check">
+                <AiFillContacts />
+              </div>
+              <p>Fast and Reliable</p>
+            </div>
+            <div className="division">
+              <div className="check">
+                <AiFillBell />
+              </div>
+              <p>One click delivery</p>
+            </div>
           </div>
           <div className="img-section2">
             <img src={img} alt="" />
