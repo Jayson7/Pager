@@ -11,9 +11,7 @@ function Section1() {
             iure id provident nam, nesciunt voluptas accusantium laudantium
             odio. Eaque, iusto. Lorem, ipsum dolor sit amet consectetur
             adipisicing elit. Optio quasi aliquid molestiae repudiandae velit in
-            dolor fugit eos doloribus hic non quo quidem soluta voluptatem,
-            libero illo est, explicabo temporibus ipsum. Quia commodi ratione
-            alias? Inventore suscipit commodi eveniet minus.
+            dolor fugit eos doloribus hic non quo quidem soluta voluptatem.
           </p>
           <div className="section1-button">
             <button>Products</button>
