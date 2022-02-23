@@ -4,6 +4,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    background-color: aqua;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+
+.section2-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-title h4 {
+    text-transform: uppercase;
+    color: cadetblue;
+    font-size: 25px;
+}
+
+.section2-body {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100%;
+    height: 87%;
+    justify-content: space-around;
+}
+
+.info-section2 {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.img-section2 {
+    width: 400px;
+    height: 90%;
+    background-color: blue;
 }
