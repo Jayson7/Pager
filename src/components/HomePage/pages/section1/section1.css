@@ -81,3 +81,15 @@
         font-size: 1.1rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .section1 {
+        height: 100vh;
+    }
+    .section1-text-box h1 {
+        font-size: 2rem;
+    }
+    .section1-text-box p {
+        font-size: 0.8rem;
+    }
+}
