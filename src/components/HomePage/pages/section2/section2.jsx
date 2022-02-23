@@ -1,7 +1,6 @@
 import React from "react";
 import "./section2.css";
 
-
 function Section2() {
   return (
     <div>
@@ -11,7 +10,12 @@ function Section2() {
           <h1>Why Shop With US</h1>
         </div>
         <div className="section2-body">
-          <div className="info-section2"></div>
+          <div className="info-section2">
+            <div className="division"></div>
+            <div className="division"></div>
+            <div className="division"></div>
+            <div className="division"></div>
+          </div>
           <div className="img-section2"></div>
         </div>
       </div>

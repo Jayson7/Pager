@@ -17,8 +17,14 @@
 
 .section2-title h4 {
     text-transform: uppercase;
-    color: cadetblue;
+    color: rgb(220, 230, 217);
     font-size: 25px;
+}
+
+.section2-title h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: -20px;
 }
 
 .section2-body {
@@ -27,17 +33,27 @@
     align-items: center;
     width: 100%;
     height: 87%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.division {
+    background-color: aqua;
+    margin: 5px;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
 .info-section2 {
-    width: 400px;
+    margin: 10px;
+    width: 380px;
     height: 400px;
-    background-color: black;
+    display: grid;
 }
 
 .img-section2 {
-    width: 400px;
+    width: 380px;
+    margin: 10px;
     height: 90%;
-    background-color: blue;
 }
