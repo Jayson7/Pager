@@ -15,9 +15,6 @@ function Section4() {
           <div className="item-section4"></div>
           <div className="item-section4"></div>
           <div className="item-section4"></div>
-          <div className="item-section4"></div>
-          <div className="item-section4"></div>
-          <div className="item-section4"></div>
         </div>
       </div>
     </div>
