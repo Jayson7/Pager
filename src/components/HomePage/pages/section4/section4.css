@@ -1,0 +1,48 @@
+.section4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section4-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4-title h4 {
+    text-transform: uppercase;
+    color: rgb(220, 230, 217);
+    font-size: 25px;
+}
+
+.section4-title h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: -20px;
+}
+
+.section4-wrapper {
+    width: 80%;
+    height: 500px;
+    background-color: rgb(28, 28, 51);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.item-section4 {
+    background-color: beige;
+    margin: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .section4 {
+        height: 100%;
+    }
+}
