@@ -10,10 +10,9 @@ import {
 import Contact from "../Contact/contact";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomePage from "../HomePage/home";
-import Order from "../Order/order";
+
 import Gallery from "../Gallery/gallery";
-import Cart from "../Cart/cart";
-import Category from "../Category/category";
+
 import "./navbar.css";
 
 export default function NavBar() {
@@ -48,16 +47,16 @@ export default function NavBar() {
               <Link to="/"> Home </Link>
             </li>
             <li>
-              <Link to="/order"> Orders</Link>
+              <Link to="/"> Orders</Link>
             </li>
             <li>
               <Link to="/gallery"> Gallery</Link>
             </li>
             <li>
-              <Link to="/categories"> Categories</Link>
+              <Link to="/"> Categories</Link>
             </li>
             <li>
-              <Link to="/cart"> Cart</Link>
+              <Link to="/"> Cart</Link>
             </li>
             <li>
               <Link to="/contact"> Contact</Link>
@@ -96,10 +95,8 @@ export default function NavBar() {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
 
-          <Route exact path="/order" element={<Order />} />
           <Route exact path="/gallery" element={<Gallery />} />
-          <Route exact path="/categories" element={<Category />} />
-          <Route exact path="/cart" element={<Cart />} />
+
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </div>
