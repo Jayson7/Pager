@@ -6,7 +6,7 @@ import Footer from "../HomePage/pages/footer/footer";
 function Gallery() {
   return (
     <div>
-      <Section1 />
+      <Section1 text="We Provide Quality over Quantity anyday, anytime" />
       <GalComponent />
       <Footer />
     </div>
