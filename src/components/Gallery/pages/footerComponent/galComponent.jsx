@@ -13,7 +13,7 @@ import image10 from "../../../images/clothes and shoes/c.jpg";
 import image11 from "../../../images/clothes and shoes/d.jpg";
 import image12 from "../../../images/clothes and shoes/g.jpg";
 import image13 from "../../../images/clothes and shoes/h.jpg";
-import image14 from "../../../images/clothes and shoes/h.jpg";
+import image14 from "../../../images/clothes and shoes/66.jpg";
 function GalComponent() {
   return (
     <div>
