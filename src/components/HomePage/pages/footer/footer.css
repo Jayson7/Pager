@@ -3,4 +3,22 @@
     width: 100%;
     background-color: black;
     margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-wrapper {
+    height: 100%;
+    background-color: antiquewhite;
+    width: 80%;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.copy {
+    color: white;
 }
