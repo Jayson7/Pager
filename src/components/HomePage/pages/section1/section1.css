@@ -1,6 +1,6 @@
 .section1 {
     width: 100%;
-    height: calc(100vh - 60px);
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(1, 30, 46)), url("../section1/g.jpg");
     background-position: center;
     background-repeat: no-repeat;
