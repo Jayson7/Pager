@@ -28,20 +28,39 @@
 
 .section4-wrapper {
     width: 80%;
-    height: 600px;
-    background-color: rgb(28, 28, 51);
+    height: 500px;
     border-radius: 20px;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 10px;
 }
 
 .item-section4 {
-    background-color: beige;
-    margin: 10px;
+    background-color: rgb(161, 161, 17);
 }
 
 @media screen and (max-width: 900px) {
     .section4 {
         height: 100%;
+        width: 100%;
+    }
+    .section4-wrapper {
+        width: 80%;
+        height: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 250px);
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .section4-wrapper {
+        width: 80%;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 300px);
     }
 }
