@@ -25,14 +25,16 @@ export default function NavBar() {
       setIsToggle(false);
     }
   };
-  console.log(istoggle);
+  let clickrespond = () => {
+    setIsToggle(false);
+  };
+  // console.log(istoggle);
   return (
     <Router>
       <div>
         <div className="navbar-wrapper">
           <div className="logo">
             <Link to="/">
-              {" "}
               <span>P</span>aGer
             </Link>
           </div>
@@ -44,22 +46,34 @@ export default function NavBar() {
         <div className={istoggle ? "active" : "notactive"}>
           <ul className=" ">
             <li>
-              <Link to="/"> Home </Link>
+              <Link to="/" onClick={clickrespond}>
+                Home{" "}
+              </Link>
             </li>
             <li>
-              <Link to="/"> Orders</Link>
+              <Link to="/" onClick={clickrespond}>
+                Orders
+              </Link>
             </li>
             <li>
-              <Link to="/gallery"> Gallery</Link>
+              <Link to="/gallery" onClick={clickrespond}>
+                Gallery
+              </Link>
             </li>
             <li>
-              <Link to="/"> Categories</Link>
+              <Link to="/" onClick={clickrespond}>
+                Categories
+              </Link>
             </li>
             <li>
-              <Link to="/"> Cart</Link>
+              <Link to="/" onClick={clickrespond}>
+                Cart
+              </Link>
             </li>
             <li>
-              <Link to="/contact"> Contact</Link>
+              <Link to="/contact" onClick={clickrespond}>
+                Contact
+              </Link>
             </li>
           </ul>
           <div className="icons">

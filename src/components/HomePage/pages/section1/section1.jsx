@@ -1,11 +1,11 @@
 import React from "react";
 import "./section1.css";
-function Section1() {
+function Section1(props) {
   return (
     <div>
       <div className="section1">
         <div className="section1-text-box">
-          <h1>We sell the things you desire, lets get you paged</h1>
+          <h1>{props.text}</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
             iure id provident nam, nesciunt voluptas accusantium laudantium

@@ -7,7 +7,7 @@ import Footer from "./pages/footer/footer";
 function HomePage() {
   return (
     <div>
-      <Section1 />
+      <Section1 text="We sell the things you desire, lets get you paged" />
       <Section2 />
       <Section3 />
       <Section4 />
