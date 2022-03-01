@@ -86,6 +86,9 @@
     .section1 {
         height: 100vh;
     }
+    .section1-text-box {
+        margin-top: 10vh;
+    }
     .section1-text-box h1 {
         font-size: 2rem;
     }
